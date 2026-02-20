@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 20px;
+    color: #111827;
+}
+
+h1, h2, h3 {
+    color: #1f2933;
+}
+
+p {
+    color: #374151;
+    line-height: 1.5;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+/* Semantic */
+header, nav, footer, section {
+    background-color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+footer {
+    text-align: center;
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Forms */
+.form-container {
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    padding: 12px;
+    border-radius: 10px;
+    width: 420px;
+    margin: 10px 0;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 6px;
+    width: 220px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 6px;body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 20px;
+    color: #111827;
+}
+
+h1, h2, h3 {
+    color: #1f2933;
+}
+
+p {
+    color: #374151;
+    line-height: 1.6;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+/* Semantic layout */
+header, nav, footer, section {
+    background-color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+footer {
+    text-align: center;
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Forms */
+.form-container {
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    padding: 16px;
+    border-radius: 12px;
+    width: 480px;     /* wider, not short */
+    margin: 12px 0;
+}
+
+.form-row {
+    margin-bottom: 12px;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+input, select, textarea {
+    padding: 8px;
+    width: 260px;    /* wider inputs */
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+button:hover {
+    background-color: #1e3a8a;
+}
+
+/* Block */
+.block {
+    background-color: #93c5fd;
+    margin: 6px 0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 320px;
+    font-weight: bold;
+}
+
+/* Inline */
+.inline {
+    background-color: #fde68a;
+    margin-right: 6px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Flexbox */
+.flexbox-row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.flexbox-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e3a8a;
+}
+
+/* Block */
+.block {
+    background-color: #93c5fd;
+    margin: 6px 0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    font-weight: bold;
+}
+
+/* Inline */
+.inline {
+    background-color: #fde68a;
+    margin-right: 6px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Flexbox */
+.flexbox-row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.flexbox-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 70px;
+    text-align: center;
+    font-weight: bold;
+}
