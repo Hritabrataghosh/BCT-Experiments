@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Manager Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-layer light-gradient"></div>
+    <div class="bg-layer dark-gradient"></div>
+
+    <div class="container">
+        <div class="header">
+            <h2>Class Registry</h2>
+            <button id="themeToggle" class="mode-icon">🌙</button>
+        </div>
+
+        <div class="inputs">
+            <input type="text" id="nameInp" placeholder="Student Name">
+            <input type="number" id="markInp" placeholder="Score">
+            <button class="btn main-btn" onclick="addStudent()">Add Student</button>
+        </div>
+
+        <div class="controls">
+            <button class="btn all" onclick="showAll()">Show All</button>
+            <button class="btn pass" onclick="showPassed()">Passed</button>
+            <button class="btn stats" onclick="showStats()">Stats</button>
+            <button class="btn reset" onclick="resetAll()">Reset Data</button>
+        </div>
+
+        <div id="output" class="output-box">
+            <p class="hint">Waiting for data...</p>
+        </div>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+</html>
